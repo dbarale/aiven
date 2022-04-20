@@ -26,16 +26,16 @@ You will build a simple kafka producer application sending sample stock symbol m
 
    Click on **+Create a new service** and you should see a list of services available.</br>
    1. Choose Apache Kafka
-      ![Aiven Service List!](https://github.com/dbarale/aiven/blob/main/a0.JPG)
+      ![Aiven Service List!](https://github.com/dbarale/aiven/blob/main/a1.JPG)
 
    2. Select Service Cloud Provider (Google Cloud)
-      ![Aiven Service Cloud Provider!](https://github.com/dbarale/aiven/blob/main/a0.JPG)
+      ![Aiven Service Cloud Provider!](https://github.com/dbarale/aiven/blob/main/a2.JPG)
 
-   3. Select Service Cloud Region (google-us-central1)
-      ![Aiven Service Cloud Region!](https://github.com/dbarale/aiven/blob/main/a0.JPG)
+   3. Select Service Cloud Region (google-us-virginia)
+      ![Aiven Service Cloud Region!](https://github.com/dbarale/aiven/blob/main/a3.JPG)
 
-   4. Select Service Plan (for this tutorial, Startup-2 is good enough)
-      ![Aiven Service Cloud Plan!](https://github.com/dbarale/aiven/blob/main/a0.JPG)
+   4. Select Service Plan (for this tutorial, Business-4 is good enough)
+      ![Aiven Service Cloud Plan!](https://github.com/dbarale/aiven/blob/main/a4.JPG)
 
    5. Provide Service Name (optional)
       ![Aiven Service Plan!](https://github.com/dbarale/aiven/blob/main/a0.JPG)
