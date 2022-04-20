@@ -1,19 +1,16 @@
-# Tutorial: A Spring Boot Kafka producer to Aiven Kafka Service
+# Tutorial: A Yahoo Finance Stock Symbols News Kafka producer to Aiven Kafka Service
 
-This repo provides a simple guide of Spring Boot app that produces messages to Aiven Kafka Service.  The goal here is to help you accelerate appplication development on Aiven Cloud Service using Spring Boot and VS Code.
+This repo provides a simple guide to a Aiven Kafka producer app that produces messages to Aiven Kafka Service.  The idea is to help you accelerate appplication development on Aiven Cloud Service using Kafka.
 
-## What you will build
+## What is built
 
-You will build a simple kafka producer application sending sample messages to a kafka topic on Aiven Kafak Service. 
+You will build a simple kafka producer application sending sample stock symbol messages to a kafka topic on a Aiven Kafka Service. 
 
 ## What you need
 
 - About 20 mins
-- VS Code
-  - Extension Pack for Java
-  - Spring Initializr Java Support
-  - Test Runner for Java
-  - Visual Studio IntelliCode
+- Code
+  - Basic Python
 - Aiven Cloud free account
 
 ## How to complete this tutorial
@@ -22,7 +19,7 @@ You will build a simple kafka producer application sending sample messages to a 
 
 1. Register a free Aiven account
 
-   Go to https://aiven.io and register a free account. You will have 300usd credits which is enough to deploy data services we need in this tutorial. Once you registered, you can login to Aivent dashboard. The dashboard looks like this.</br>
+   Go to https://aiven.io and register a free account. You will have 300usd credits which is enough to deploy data services we need in this tutorial. Once you registered, you can login to Aiven dashboard. The dashboard looks like this.</br>
    ![Aiven Dashboard!](screenshots/aiven_kafka_service1.png)
 
 2. Create a Kafka service
