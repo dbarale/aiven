@@ -26,25 +26,25 @@ You will build a simple kafka producer application sending sample stock symbol m
 
    Click on **+Create a new service** and you should see a list of services available.</br>
    1. Choose Apache Kafka
-      ![Aiven Service List!](screenshots/aiven_kafka_service2.png)
+      ![Aiven Service List!](https://github.com/dbarale/aiven/blob/main/a0.JPG)
 
    2. Select Service Cloud Provider (Google Cloud)
-      ![Aiven Service Cloud Provider!](screenshots/aiven_kafka_service3.png)
+      ![Aiven Service Cloud Provider!](https://github.com/dbarale/aiven/blob/main/a0.JPG)
 
    3. Select Service Cloud Region (google-us-central1)
-      ![Aiven Service Cloud Region!](screenshots/aiven_kafka_service4.png)
+      ![Aiven Service Cloud Region!](https://github.com/dbarale/aiven/blob/main/a0.JPG)
 
    4. Select Service Plan (for this tutorial, Startup-2 is good enough)
-      ![Aiven Service Cloud Plan!](screenshots/aiven_kafka_service5.png)
+      ![Aiven Service Cloud Plan!](https://github.com/dbarale/aiven/blob/main/a0.JPG)
 
    5. Provide Service Name (optional)
-      ![Aiven Service Plan!](screenshots/aiven_kafka_service6.png)
+      ![Aiven Service Plan!](https://github.com/dbarale/aiven/blob/main/a0.JPG)
 
    6. In Service Summary, click **+ Create Service** to get the Kafka cluster running.
-      ![Aiven Service Summary!](screenshots/aiven_kafka_service7.png)
+      ![Aiven Service Summary!](https://github.com/dbarale/aiven/blob/main/a0.JPG)
 
    7. You can see the Kafka service progress back in the Aiven Dashboard.
-      ![Aiven Service Dashboard!](screenshots/aiven_kafka_service8.png)
+      ![Aiven Service Dashboard!](https://github.com/dbarale/aiven/blob/main/a0.JPG)
 
 3. Create a InfluxDB and Grafana services
 
