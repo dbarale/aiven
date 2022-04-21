@@ -75,6 +75,23 @@ The main driver has a toggle functionality. When defining the run configuration 
 
 ![Aiven Service Cloud Plan!](screenshots/a8.JPG)
 
-2. Fill in application properties
-   To simplify/flexify the demo, we add kafka configs to application.properties that spring boot application will read as context. </br>
+2. Running the producer script will generate 12 messages using randomly picked single letter stock symbol (such as C for Citibank, Z for Zillow, for instance). The random algorithm is based on the "faker" class used by Aiven to generate random data.
 
+![Aiven Service Cloud Plan!](screenshots/a9.JPG)
+
+3. The producer's data should be readable from the Aiven web console from the Kafka service view > Topics => Topic => Fetch Messages (Format: json)
+
+![Aiven Service Cloud Plan!](screenshots/a10.JPG)
+![Aiven Service Cloud Plan!](screenshots/a11.JPG)
+
+4. The key of the messages is a random UUID embedded in a JSON element.
+
+![Aiven Service Cloud Plan!](screenshots/a12.JPG)
+
+5. The value of the messages is the company info as Yahoo! Finance embedded in a JSON element.
+
+![Aiven Service Cloud Plan!](screenshots/a13.JPG)
+
+6. Within embedded value JSON element there is a "ts" entry with the message creation date in ISO 8601 format.
+
+![Aiven Service Cloud Plan!](screenshots/a14.JPG)
