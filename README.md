@@ -1,4 +1,4 @@
-# Tutorial: A Yahoo Finance Stock Symbols News Kafka producer to Aiven Kafka Service
+# Tutorial: A Yahoo! Finance Stock Symbols Info Kafka producer to Aiven Kafka Service
 
 This repo provides a simple guide to a Aiven Kafka producer app that produces messages to Aiven Kafka Service.  The idea is to help you accelerate appplication development on Aiven Cloud Service using Kafka.
 
