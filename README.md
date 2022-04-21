@@ -8,9 +8,9 @@ You will build a simple kafka producer application sending sample stock symbol m
 
 ## What you need
 
-- About 20 mins
+- About 30 mins
 - Code
-  - Basic Python
+  - Python with Kafka libraries
 - Aiven Cloud free account
 
 ## How to complete this tutorial
@@ -20,13 +20,13 @@ You will build a simple kafka producer application sending sample stock symbol m
 1. Register a free Aiven account
 
    Go to https://aiven.io and register a free account. You will have 300usd credits which is enough to deploy data services we need in this tutorial. Once you registered, you can login to Aiven dashboard. The dashboard looks like this.</br>
-   ![Aiven Dashboard!](https://github.com/dbarale/aiven/blob/main/screenshots/a0.JPG)
+   ![Aiven Dashboard!](screenshots/a0.JPG)
 
 2. Create a Kafka service
 
    Click on **+Create a new service** and you should see a list of services available.</br>
    1. Choose Apache Kafka
-      ![Aiven Service List!](https://github.com/dbarale/aiven/blob/main/screenshots/a1.JPG)
+      ![Aiven Service List!](screenshots/a1.JPG)
 
    2. Select Service Cloud Provider (Google Cloud)
       ![Aiven Service Cloud Provider!](https://github.com/dbarale/aiven/blob/main/screenshots/a2.JPG)
@@ -76,23 +76,7 @@ You will build a simple kafka producer application sending sample stock symbol m
 
    In VSCode, press Ctrl-Shift-P to get the command pallete, then type spring boot create gradle project, then press enter to go next step to pick spring boot starter modules. </br>
 
-   ![Aiven Spring Init!](screenshots/aiven_spring_init2.png)
-   
-   ![Aiven Spring Init!](screenshots/aiven_spring_init3.png)
-
-   ![Aiven Spring Init!](screenshots/aiven_spring_init4.png)
-
-   ![Aiven Spring Init!](screenshots/aiven_spring_init5.png)
-
-   ![Aiven Spring Init!](screenshots/aiven_spring_init6.png)
-
-   ![Aiven Spring Init!](screenshots/aiven_spring_init7.png)
-
-   ![Aiven Spring Init!](screenshots/aiven_spring_init8.png)
-
-   ![Aiven Spring Init!](screenshots/aiven_spring_init9.png)
-
-   Once the spring project created, You can find the project structure like this.
+     Once the spring project created, You can find the project structure like this.
 
    ![Aiven Spring Init!](screenshots/aiven_spring_init10.png)
 
