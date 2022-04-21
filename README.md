@@ -1,10 +1,21 @@
-# Tutorial: A Yahoo! Finance Stock Symbols Info Kafka producer to Aiven Kafka Service
+# Tutorial: Aiven Kafka Quickstart using Python
+# A Yahoo! Finance Stock Symbols Info Kafka producer to Aiven Kafka Service
 
 This repo provides a simple guide to a Aiven Kafka producer app that produces messages to Aiven Kafka Service.  The idea is to help you accelerate appplication development on Aiven Cloud Service using Kafka.
 
 ## What is built
 
 You will build a simple kafka producer application sending sample stock symbol messages to a kafka topic on a Aiven Kafka Service. 
+
+The alphabet for Modern English consisting of 26 letters. The Dow Jones Industrial Average consists of companies, each one being assigned with a unique ticker or stock symbol. Only a few have stock symbols composed of only one letter.
+
+From the 26 letters mentioned, only 23 are used by companies (3 had been delisted). The current application randomly selects 12 of those companies, and using the Yahoo! Finance service obtains basic information about the company. Then, the Kafka service you create into Aiven uses Python code to produce valid JSON data to a topic in that service.
+
+The key is a valid JSON string containing a random id, e.g. UUID, and the message payload is a valid JSON object. The events include a timestamp represented by a string with the date in ISO 8601 format.
+
+The producer's data should be readable from the Aiven web console from the
+Kafka service view > Topics => Topic => Fetch Messages (Format: json)
+
 
 ## What you need
 
