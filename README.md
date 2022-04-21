@@ -20,22 +20,22 @@ You will build a simple kafka producer application sending sample stock symbol m
 1. Register a free Aiven account
 
    Go to https://aiven.io and register a free account. You will have 300usd credits which is enough to deploy data services we need in this tutorial. Once you registered, you can login to Aiven dashboard. The dashboard looks like this.</br>
-   ![Aiven Dashboard!](https://github.com/dbarale/aiven/blob/main/screeshots/a0.JPG)
+   ![Aiven Dashboard!](https://github.com/dbarale/aiven/blob/main/screenshots/a0.JPG)
 
 2. Create a Kafka service
 
    Click on **+Create a new service** and you should see a list of services available.</br>
    1. Choose Apache Kafka
-      ![Aiven Service List!](https://github.com/dbarale/aiven/blob/main/screeshots/a1.JPG)
+      ![Aiven Service List!](https://github.com/dbarale/aiven/blob/main/screenshots/a1.JPG)
 
    2. Select Service Cloud Provider (Google Cloud)
-      ![Aiven Service Cloud Provider!](https://github.com/dbarale/aiven/blob/main/screeshots/a2.JPG)
+      ![Aiven Service Cloud Provider!](https://github.com/dbarale/aiven/blob/main/screenshots/a2.JPG)
 
    3. Select Service Cloud Region (google-us-virginia)
-      ![Aiven Service Cloud Region!](https://github.com/dbarale/aiven/blob/main/screeshots/a3.JPG)
+      ![Aiven Service Cloud Region!](https://github.com/dbarale/aiven/blob/main/screenshots/a3.JPG)
 
    4. Select Service Plan (for this tutorial, Business-4 is good enough)
-      ![Aiven Service Cloud Plan!](https://github.com/dbarale/aiven/blob/main/screeshots/a4.JPG)
+      ![Aiven Service Cloud Plan!](https://github.com/dbarale/aiven/blob/main/screenshots/a4.JPG)
 
    5. Provide Service Name (optional)
       ![Aiven Service Plan!](https://github.com/dbarale/aiven/blob/main/a0.JPG)
